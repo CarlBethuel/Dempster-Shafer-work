@@ -499,6 +499,11 @@ Perform_decision <- function(Test.sample, Applied.sample, Combi.df) {
   ))
 }
 
+
+################################################################################
+#                                MAIN                                          #
+################################################################################
+
 # Initialization of lists to store data at various stages
 sample.ls <- list()           # List to store samples for each grid
 Prep.sample.ls <- list()      # List to store prepared samples
