@@ -5,7 +5,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2023.10641360-blue)](https://ieeexplore.ieee.org/document/10641360)
 ![Open Source](https://img.shields.io/badge/Open--Source-Yes-brightgreen)
 
-![texte alternatif]()
+![Image is not available or viewable](./Images/Img_git.png)
 
 ## Table of Contents
 - [Context](#Context)
