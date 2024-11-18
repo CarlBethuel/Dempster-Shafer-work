@@ -5,6 +5,13 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2023.10641360-blue)](https://ieeexplore.ieee.org/document/10641360)
 ![Open Source](https://img.shields.io/badge/Open--Source-Yes-brightgreen)
 
+
+
+Attention this document is being written! 
+
+
+
+
 ![Image is not available or viewable](./Images/Img_git.PNG)
 
 ## Table of Contents
@@ -46,6 +53,7 @@ Attention R packages are required for the use of this code.
 ```bash 
 install.packages(c("sf", "terra", "tidyverse"))
 ```
+The code is organized by function for a total of 6 functions ranging from the creation of the reference sampling to the validation of the classification derived by the DST. The logic used in the script is applied for two land use classes (Oil Palm and No Oil Palm) and 4 input sources (see [Features] section). The code can be modified depending on the application. 
 
 ## Features
 This work is based on data from the scientific literature: 
