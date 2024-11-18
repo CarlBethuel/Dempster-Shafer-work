@@ -2,24 +2,19 @@
 
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
-
-An R-based tool for [describe purpose briefly, e.g., processing satellite data for environmental monitoring].
+![DOI](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Context](#Context)
+- [Usage](#Usage)
 - [Features](#features)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+- [Examples](#Examples)
 
-## Introduction
+## Context
 
 This project provides a tool to process spatial data and perform classification using Dempster-Shafer Theory (DST). It was designed to assist researchers in [specific field/domain].
 
-## Installation
+## Usage
 
 1. Clone the repository:
    ```bash
@@ -30,7 +25,7 @@ install.packages(c("sf", "terra", "tidyverse"))
 
 ---
 
-### 6. **Usage**
+## 6. **Usage**
 Ajoutez des exemples clairs d'utilisation avec des commandes ou des extraits de code.
 
 ```markdown
@@ -41,6 +36,7 @@ Ajoutez des exemples clairs d'utilisation avec des commandes ou des extraits de 
 Grid.roi <- st_read("./DST/Grid/Shape/Grid_test.shp")
 IOP.field <- st_read("./Gaveau/Data/Validation/Ind_OP_Sumatra.shp")
 
+## Features
 
 ## Examples
 
