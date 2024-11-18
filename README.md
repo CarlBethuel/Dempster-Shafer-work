@@ -45,7 +45,7 @@ To use the codes, you can clone the directory
 
 Clone the repository:
    ```bash
-   git clone https://github.com/username/project-name.git
+   git clone https://github.com/CarlBethuel/Dempster-Shafer-work.git
 ```
 
 Attention R packages are required for the use of this code. 
