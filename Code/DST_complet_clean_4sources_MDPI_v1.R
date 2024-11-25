@@ -2,9 +2,11 @@
 #                                  LIBRARIES                                   #
 ################################################################################
 # Load necessary libraries for spatial and statistical operations
-library(sf)      # For handling spatial data
-library(terra)   # For raster data manipulation
-library(pracma)  # For numerical and mathematical functions
+library(sf)      # For handling spatial data (v.1.0.16)
+library(terra)   # For raster data manipulation (v.1.7.55)
+library(pracma)  # For numerical and mathematical functions (v.2.3.8)
+
+# Code released in Nov 2024. Check library versions.
 
 ################################################################################
 #                             SYSTEM PARAMETERS                                #
@@ -284,7 +286,7 @@ Mass_assign = function(Valid.Classif){
   
   ##############################################################################
   # INPUT :                                                                    #
-  # - Valid.Classif : A list object derived from Valid_Classif function         #
+  # - Valid.Classif : A list object derived from Valid_Classif function        #
   #                                                                            #
   # OUTPUT : A dataframe of masses needed for DST application                  #
   ##############################################################################
