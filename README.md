@@ -27,13 +27,18 @@ All codes and explanations are taken from the work published in the following ar
 
 **Please cite this work if you use it.**
 
-This project provides a tool to process spatial data and perform classification using Dempster-Shafer Theory (DST). 
-Dempster-Shafer Theory (DST) was develop by **A. Dempster in 1967** and later extended by **G. Shafer in 1976**. It generalizes the Bayesian theory of probability to assess the likelihood of an available evidence. This method is well known and widely used with remote sensing data for its management of uncertainty through the functions of belief and plausibility. It is based on a concept of ignorance to provide sound analysis by not interpreting the lack of information as evidence against an hypothesis (**Lein, 2003**). Its application is based on 4 steps :
+This project provides a tool to process spatial data and perform classification using two fusion methods : 
+- Dempster-Shafer Theory (DST),
+- Voting strategies
+ 
+Dempster-Shafer Theory was develop by **A. Dempster in 1967** and later extended by **G. Shafer in 1976**. It generalizes the Bayesian theory of probability to assess the likelihood of an available evidence. This method is well known and widely used with remote sensing data for its management of uncertainty through the functions of belief and plausibility. It is based on a concept of ignorance to provide sound analysis by not interpreting the lack of information as evidence against an hypothesis (**Lein, 2003**). Its application is based on 4 steps :
 
 - **1. The discernment framework (DF)** sets the hypothesis of the fusion process, i.e. it defines all the possible classes potentially assigned to a pixel:
 - **2. The Mass Functions Assignment (MFA)** determines the belief level in each input source, i.e. it assigns numeric mass functions to each pixel depending on its original class.
 - **3. The Dempster-Shafer fusion rule** combines the mass functions to estimate the conflict (i.e. uncertainty) and the belief (i.e. confidence) for each pixel to belong to each hypothesis.
 - **4. The decision rule (DR)** relies on these metrics to make a final decision, i.e. assign a hypothesis to each pixel.
+
+Voting strategies aggregate predictions from multiple sources using voting systems (e.g., simple majority voting or weighted voting), i.e., a vote assigned to each input map. Although the voting strategy approach is simple to implement, uncertainty management remains limited. However, this is an essential point in our work, since the diversity of oil palm plantation maps and the methodological challenges involved in this mapping induce significant uncertainty in the results.
 
 For more information, see the published article of this work.
 
@@ -51,9 +56,9 @@ Clone the repository:
 Attention R packages are required for the use of this code. 
 
 ```bash 
-install.packages(c("sf", "terra", "tidyverse"))
+install.packages(c("sf", "terra", "pracma"))
 ```
-The code is organized by function for a total of 6 functions ranging from the creation of the reference sampling to the validation of the classification derived by the DST. The logic used in the script is applied for two land use classes (Oil Palm and No Oil Palm) and 4 input sources (see [Features] section). The code can be modified depending on the application. 
+For more information on the different codes and their use, see the explanations in the “Code” folder.
 
 ## Features
 This work is based on data from the scientific literature: 
@@ -67,6 +72,7 @@ This work is based on data from the scientific literature:
 ## Examples
 
 An example of an application is available in the following article: 
+In addition, a sampling of points divided into train and test data sets are available in the “Data” folder of this repository. This data can be used to apply the DST and voting strategy.  
 
 ## References
 - Danylo, Olga, Johannes Pirker, Guido Lemoine, Guido Ceccherini, Linda See, Ian McCallum, Hadi, Florian Kraxner, Frédéric Achard, and Steffen Fritz. 2021. “A Map of the Extent and Year of Detection of Oil Palm Plantations in Indonesia, Malaysia and Thailand.” Scientific Data 8 (1): 96. https://doi.org/10.1038/s41597-021-00867-1.
