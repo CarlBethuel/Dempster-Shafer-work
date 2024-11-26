@@ -308,10 +308,10 @@ Perform_decision <- function(Test.sample, Applied.sample, Combi.df) {
 ################################################################################
 
 # Alternatively, load pre-saved training and testing samples
-train.sample <- st_read("./DST/Sample_train_mdpi.shp")
-test.sample <- st_read("./DST/Sample_test_mdpi.shp")
+# Please note that the data available on the GitHub repository are in .zip format.
+train.sample <- st_read("./Data/Fusion_sampling_train.shp") 
+test.sample <- st_read("./DST/Fusion_sampling_test.shp") 
 
-# Perform validation for each source (D, I, X, MB) on the training sample
 i <- 1  # Initialize index for tracking
 Valid.D <- Valid_Classif(train.sample$Ref_bin, train.sample$D)  # Validate source D
 Valid.I <- Valid_Classif(train.sample$Ref_bin, train.sample$I)  # Validate source I
