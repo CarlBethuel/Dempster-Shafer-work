@@ -1,1 +1,1 @@
-# Here is the file to store data
+# The data used for the example is available here. 
