@@ -67,7 +67,7 @@ This work is based on data from the scientific literature:
 - IIASA map is provided by **Danylo et al., 2021** and is available [here](https://github.com/odanylo/oilpalmseasia)
 - GAVEAU reference map is provided by **Gaveau et al., 2022** 
 - MAPBIOMAS map is provided by **Mapbiomas project** and is available [here](https://mapbiomas.nusantara.earth/)
-- Xu map is provided by **Xu et al., 2020** and is available [here](https://zenodo.org/records/3467071)
+- XU map is provided by **Xu et al., 2020** and is available [here](https://zenodo.org/records/3467071)
 
 ## Examples
 
