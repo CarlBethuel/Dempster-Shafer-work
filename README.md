@@ -2,7 +2,7 @@
 
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![R Packages](https://img.shields.io/badge/Packages-sf%2C%20terra%2C%20pracma-blue?logo=r)
-![DOI](https://img.shields.io/badge/DOI-10.3390%2Frs17020234-blue?logo=doi&style=flat-square)
+[![DOI](https://img.shields.io/badge/DOI-10.3390%2Frs17020234-blue?logo=doi&style=flat-square)](https://doi.org/10.3390/rs17020234)
 ![Open Source](https://img.shields.io/badge/Open--Source-Yes-brightgreen)
 
 
