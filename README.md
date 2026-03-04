@@ -4,13 +4,6 @@
 ![R Packages](https://img.shields.io/badge/Packages-sf%2C%20terra%2C%20pracma-blue?logo=r)
 [![DOI](https://img.shields.io/badge/DOI-10.3390%2Frs17020234-blue?logo=doi&style=flat-square)](https://www.mdpi.com/2072-4292/17/2/234)
 
-
-
-Attention this document is being written! 
-
-
-
-
 ![Image is not available or viewable](./Images/Img_git.PNG)
 
 ## Table of Contents
