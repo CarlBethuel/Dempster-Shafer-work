@@ -15,7 +15,9 @@
 
 ## Context
 
-All codes and explanations are taken from the work published in the following article: 
+All codes and explanations are taken from the work published in the following article: Bethuel, C., Arvor, D., Corpetti, T., Hélie, J., Descals, A., Gaveau, D., Chéron-Bessou, C., Gignoux, J., Corgne, S., a. Applying the
+dempster–shafer fusion theory to combine independent land-use maps: A case study on the mapping of oil palm plantations in sumatra,
+indonesia. Remote Sensing 17. URL: https://www.mdpi.com/2072-4292/17/2/234, doi:10.3390/rs17020234.
 
 **Please cite this work if you use it.**
 
